@@ -1,7 +1,7 @@
 require 'formula'
 
 class Imapsync < Formula
-  url 'https://fedorahosted.org/released/imapsync/imapsync-1.456.tgz'
+  url 'https://fedorahosted.org/released/imapsync/imapsync-1.678.tgz'
   homepage 'http://ks.lamiral.info/imapsync/'
   md5 'e9ea9ab5eba11cfe1c62ae9be1d9d7ae'
 
