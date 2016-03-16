@@ -7,6 +7,7 @@ class Imapsync < Formula
 
   depends_on 'Mail::IMAPClient' => :perl
   depends_on 'Authen::NTLM'     => :perl
+  depends_on 'File::Copy::Recursive'     => :perl
 
   def install
     system 'perl', '-c', 'imapsync'
