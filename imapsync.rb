@@ -9,6 +9,7 @@ class Imapsync < Formula
   depends_on 'Authen::NTLM'     => :perl
   depends_on 'File::Copy::Recursive'     => :perl
 
+
   def install
     system 'perl', '-c', 'imapsync'
     system 'pod2man', 'imapsync', 'imapsync.1'
