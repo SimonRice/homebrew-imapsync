@@ -8,6 +8,8 @@ class Imapsync < Formula
   depends_on 'Mail::IMAPClient' => :perl
   depends_on 'Authen::NTLM'     => :perl
   depends_on 'File::Copy::Recursive'     => :perl
+   depends_on 'IO::Tee'     => :perl
+   depends_on 'Unicode::String'     => :perl
 
 
   def install
