@@ -1,4 +1,8 @@
-# IMAPSync Formula for Homebrew
+⚠️️ **Deprecation Warning** IMAPSync is now in the official Homebrew repository - run `brew install imapsync`  ⚠️
+
+-----
+
+# (Deprecated) IMAPSync Formula for Homebrew
 
 This is a [Homebrew](http://brew.sh) formula for imapsync, which is copied over from an unmerged Homebrew fork by budrick.  To install open up a terminal:
 
