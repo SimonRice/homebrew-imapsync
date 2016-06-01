@@ -1,12 +1,16 @@
 require 'formula'
 
 class Imapsync < Formula
-  url 'https://fedorahosted.org/released/imapsync/imapsync-1.456.tgz'
+  url 'https://fedorahosted.org/released/imapsync/imapsync-1.678.tgz'
   homepage 'http://ks.lamiral.info/imapsync/'
-  md5 'e9ea9ab5eba11cfe1c62ae9be1d9d7ae'
+  sha256 '39cc21bc7b046d46f02fb0ef507119eecd4446fd0f795d998927a5ff635ea9f7'
 
   depends_on 'Mail::IMAPClient' => :perl
   depends_on 'Authen::NTLM'     => :perl
+  depends_on 'File::Copy::Recursive'     => :perl
+   depends_on 'IO::Tee'     => :perl
+   depends_on 'Unicode::String'     => :perl
+
 
   def install
     system 'perl', '-c', 'imapsync'
